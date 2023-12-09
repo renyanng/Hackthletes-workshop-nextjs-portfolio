@@ -9,14 +9,10 @@ const TAB_DATA = [
         id: "skills",
         content: (
           <ul className="list-disc pl-2">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>JavaScript</li>
-                <li>Solidity</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Tailwind CSS</li>
-                <li>Python</li>
+                <li>Photography</li>
+                <li>Cyber Security</li>
+                <li>Poker</li>
+                <li>Trading</li>
           </ul>
         ),
     },
@@ -25,17 +21,7 @@ const TAB_DATA = [
         id: "experiences",
         content: (
           <ul className="list-disc pl-2">
-            <li>ETH Singapore</li>
-            <li>ETH KL</li>
-            <li>ETH Online</li>
-            <li>ETHGlobal Superhack</li>
-            <li>Solana Hyperdrive</li>
-            <li>APUBCC Sparkathon</li>
-            <li>Encode Club</li>
-            <li>Google CTF</li>
-            <li>NUS Grey CTF</li>
-            <li>Tune Protect Hackathon</li>
-            <li>geNFesT Ideathon</li>
+            <li>BOH</li>
           </ul>
         ),
     },
@@ -45,7 +31,7 @@ const TAB_DATA = [
         content: (
           <ul className="list-disc pl-2">
                 <li>Asia Pacific University</li>
-                <li>Tsun Jin High School</li>
+                <li>Seri Omega Private and International School</li>
           </ul>
         ),
     }
@@ -65,13 +51,17 @@ const AboutMe = () => {
         <section className="text-white grid" id="aboutMe">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:px-32 py-16 xl-gap-16 items-center">
                 <div>
-                    <img src="/AboutMe.png" alt="About Me" width={450} height={450} style={{ borderRadius: "25px" }}/>
+                    <img src="/cyberkongz.png" alt="About Me" width={450} height={450} style={{ borderRadius: "25px" }}/>
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
-                    <p className="text-base text-justify lg:text-lg">I am currently pursuing a degree in Cyber Security at APU, where I have been honing my skills in various technologies. I am familiar in frontend development, with expertise in React, Next.js, HTML, CSS, and I'm skilled in creating visually appealing and user-friendly interfaces using Tailwind CSS.
-                        Additionally, I've ventured into the world of blockchain development, particularly with Solidity, allowing me to build smart contracts for decentralized applications.
-                        My passion for technology and problem-solving has led me to actively participate in 11 hackathons this year, where I primarily serve as a Front End Developer. However, I am not limited to frontend tasks and often take on backend responsibilities, demonstrating my versatility and commitment to delivering complete solutions. </p>
+                    <p className="text-base text-justify lg:text-lg">As an enthusiastic and multifaceted professional, my career journey has been a blend of varied, yet interconnected fields. My primary expertise lies in photography, where I excel in capturing compelling images that tell stories and evoke emotions. My work in this field has not only honed my artistic eye but also equipped me with a keen attention to detail.
+
+Parallel to my passion for photography, I have developed a strong foundation in cyber security. Currently pursuing a degree in this domain at APU, I am deeply involved in understanding and implementing robust security measures. This knowledge is critical in today's digital world, especially as I navigate and contribute to the realms of cryptocurrency trading and blockchain technology.
+
+My proficiency in cryptocurrency trading is a testament to my analytical skills and my ability to understand and forecast market trends. This skill is complemented by my experience in cyber security, ensuring that my trading strategies are not only effective but also secure.
+
+Moreover, my interest in poker has sharpened my strategic thinking and decision-making abilities. Poker, much like cyber security and trading, requires a blend of skill, strategy, and psychological acumen, all of which are integral to my professional and personal growth. </p>
                     <div className="flex flex-row mt-8">
 {/* 1e */}
                         <TabButton 

@@ -18,16 +18,16 @@ const EmailSection = () => {
                 </p>
                 <h4 className="pb-3 mt-6">Let's get in touch!</h4>
                 <div className=" flex flex-row gap-4 mt-6">
-                    <Link href="https://github.com/cheongyeechian">
+                    <Link href="https://github.com/renyanng">
                         <Image src={GithubIcon} alt="Github Icon" />
                     </Link>
-                    <Link href="https://www.linkedin.com/in/cheong-yee-chian-525400219/">
+                    <Link href="https://www.linkedin.com/in/ren-yan-ng-82a528173/">
                         <Image src={LinkedinIcon} alt="Linkedin Icon" />
                     </Link>
-                    <Link href="https://www.instagram.com/yeechian_04/" className="mt-1">
+                    <Link href="https://www.instagram.com/renyanng/" className="mt-1">
                         <Image src={InstagramIcon}/>
                     </Link>
-                    <Link href="mailto:cheongyeechian@gmail.com" className="mt-1">
+                    <Link href="mailto:ngrenyan@gmail.com" className="mt-1">
                         <Image src={GmailIcon}/>
                     </Link>
 
